@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
 
       # setup-java also writes a Maven toolchains entry, which is what the build asks for.
       - name: Set up JDK 25
