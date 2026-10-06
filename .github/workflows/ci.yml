@@ -23,7 +23,7 @@ jobs:
 
       # setup-java also writes a Maven toolchains entry, which is what the build asks for.
       - name: Set up JDK 25
-        uses: actions/setup-java@v5
+        uses: actions/setup-java@v6
         with:
           distribution: temurin
           java-version: '25'
